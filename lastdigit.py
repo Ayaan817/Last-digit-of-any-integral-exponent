@@ -1,11 +1,12 @@
-import math as mt
-
 num = int(input("Enter number: "))
+
 lastdigit_num = int(repr(num)[-1])
 
 exp = int(input("Enter exponent: "))
+
 lastdigit_exp = int(repr(exp)[-1])
 last2digit_exp = 10*int(repr(exp)[-2])+int(repr(exp)[-1])
+
 mod_exp_2_3_7_8 = last2digit_exp % 4
 
 if lastdigit_exp % 2 == 1:
@@ -31,13 +32,21 @@ elif lastdigit_num == 2:
     
 elif lastdigit_num == 3:
     print(f"Last digit of {num}^{exp} is {arr_3[mod_exp_2_3_7_8 - 1]}.")
-        
-        
-        
-'''
-incomplete
-'''
-        
-        
-        
-        
+
+elif lastdigit_num == 4:
+    print(f"Last digit of {num}^{exp} is {arr_4[mod_exp_4_9 - 1]}.")
+
+elif lastdigit_num == 5:
+    print(f"Last digit of {num}^{exp} is 5.")
+
+elif lastdigit_num == 6:
+    print(f"Last digit of {num}^{exp} is 6.")
+
+elif lastdigit_num == 7:
+    print(f"Last digit of {num}^{exp} is {arr_7[mod_exp_2_3_7_8 - 1]}.")
+
+elif lastdigit_num == 8:
+    print(f"Last digit of {num}^{exp} is {arr_8[mod_exp_2_3_7_8 - 1]}.")
+
+elif lastdigit_num == 9:
+    print(f"Last digit of {num}^{exp} is {arr_9[mod_exp_4_9 - 1]}.")
