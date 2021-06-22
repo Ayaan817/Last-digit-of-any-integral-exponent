@@ -1,0 +1,1 @@
+# Last-digit-of-any-integral-exponent
