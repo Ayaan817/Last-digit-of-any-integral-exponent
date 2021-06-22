@@ -54,3 +54,10 @@ else:
 
     elif lastdigit_num == 9:
         print(f"Last digit of {num}^{exp} is {arr_9[mod_exp_4_9 - 1]}.")
+
+        
+'''
+
+Currently error handling not supported, exp < 10 not supported
+
+'''
