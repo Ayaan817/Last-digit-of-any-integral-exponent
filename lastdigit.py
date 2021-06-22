@@ -5,7 +5,7 @@ lastdigit_num = int(repr(num)[-1])
 exp = int(input("Enter exponent: "))
 
 if exp << 10:
-    print(f"Last digit of {num}^{exp} is {int(repr(lastdigit_num**exp)[-1]).")
+    print(f"Last digit of {num}^{exp} is {int(repr(lastdigit_num**exp)[-1])}.")
 else:
     if exp == 0:
         print(1)
